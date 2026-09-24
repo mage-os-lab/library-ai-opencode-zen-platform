@@ -75,7 +75,7 @@ jobs:
       # symfony/ai-platform is missing, so without it a job that installed nothing would
       # still report green while verifying nothing.
       - name: Run tests that need the AI platform
-        run: vendor/bin/phpunit -c phpunit.xml.dist --testsuite Platform --fail-on-skipped
+        run: vendor/bin/phpunit -c phpunit.xml.dist --testsuite Unit --fail-on-skipped
 
   check-extension:
     needs: compute-matrix
