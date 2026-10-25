@@ -82,4 +82,5 @@ Zen with Zen's own message, rather than being rejected here with a local one.
 ## Versioning
 
 `symfony/ai-platform` is experimental and makes no backward-compatibility promise. This package is
-verified against **v0.13.0** and constrains itself to `^0.13`; re-verify on upgrade.
+verified against **v0.13.0**, **v0.14.1** and **v0.15.0** and constrains itself to
+`^0.13 || ^0.14 || ^0.15`; re-verify before widening to a new minor.
